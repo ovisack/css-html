@@ -12,7 +12,10 @@ font-size: 80px;
 text-align: center;
 }
 #heading-parnt{
-    background-color: rgb(23, 31, 8);
+
+   background-image: url(../style/k000k.PNG);
+   background-repeat: no-repeat;
+   background-size: cover;
     height: 600px;
     padding: 100px 0;
     width:1100 ;
@@ -22,7 +25,17 @@ text-align: center;
     margin-right:30px auto;
 
 }
+.btn-perent{
+    background-color: rgb(red, #028000, rgb(0, 255, 89));
+    text-align: center;
+    margin:20px 0;
+}
 .btn{
-    background-color: aqua;
+    background-color: rgb(red, #028000, rgb(0, 255, 89));
     padding: 8px 50px;
+    color: tomato;
+    border-width: 4px;
+    border-color:yellow ;
+    border-radius: 6px;
+    text-align: center;
 }
